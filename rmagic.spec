@@ -1,4 +1,4 @@
-%include        /usr/lib/rpm/macros.perl
+%include	/usr/lib/rpm/macros.perl
 Summary:	Add-on formatting utility for Analog
 Summary(pl):	Dodatek formatuj±cy dla Analoga
 Name:		rmagic
@@ -27,7 +27,7 @@ stworzenia czytelnych, nadaj±cych siê do prezentacji raportów z
 danych serwisu WWW.
 
 %prep
-%setup  -q
+%setup -q
 
 %build
 %{__perl} Install.PL \
@@ -41,7 +41,7 @@ install -d $RPM_BUILD_ROOT%{_defaultdocdir}/%{name}-%{version}
 
 %{__perl} Install.PL \
 	-no_modules \
-        $RPM_BUILD_ROOT%{_datadir}/%{name}
+	$RPM_BUILD_ROOT%{_datadir}/%{name}
 
 mv $RPM_BUILD_ROOT%{_datadir}/%{name}docs/* $RPM_BUILD_ROOT%{_datadir}/%{name}/*sample* \
 	$RPM_BUILD_ROOT%{_defaultdocdir}/%{name}-%{version}
