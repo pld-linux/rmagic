@@ -55,7 +55,7 @@ rm -rf $RPM_BUILD_ROOT
 %defattr(644,root,root,755)
 %doc %{_docdir}/%{name}-%{version}
 %attr(755,root,root) %{_bindir}/*
-%attr(755,root,root) %dir %{_datadir}/%{name}
+%dir %{_datadir}/%{name}
 %attr(755,root,root) %{_datadir}/%{name}/lang
 %attr(755,root,root) %{_datadir}/%{name}/wadg
 %attr(755,root,root) %{_datadir}/%{name}/*.pl
