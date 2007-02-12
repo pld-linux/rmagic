@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.perl
 Summary:	Add-on formatting utility for Analog
-Summary(pl):	Dodatek formatuj±cy dla Analoga
+Summary(pl.UTF-8):   Dodatek formatujÄ…cy dla Analoga
 Name:		rmagic
 Version:	2.21
 Release:	1
@@ -19,11 +19,11 @@ site statistics software. Report Magic uses the statistics generated
 by Analog and formatting options set by you to make readable,
 presentable reports of your Web site data.
 
-%description -l pl
-Report Magic dla Analoga to dodatek formatuj±cy dla programu Analog
-s³u¿±cego do statystyk serwisów WWW. Report Magic u¿ywa statystyk
+%description -l pl.UTF-8
+Report Magic dla Analoga to dodatek formatujÄ…cy dla programu Analog
+sÅ‚uÅ¼Ä…cego do statystyk serwisÃ³w WWW. Report Magic uÅ¼ywa statystyk
 wygenerowanych przez Analoga oraz ustawionych opcji do stworzenia
-czytelnych, nadaj±cych siê do prezentacji raportów z danych serwisu
+czytelnych, nadajÄ…cych siÄ™ do prezentacji raportÃ³w z danych serwisu
 WWW.
 
 %prep
