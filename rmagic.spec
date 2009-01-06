@@ -3,7 +3,7 @@ Summary:	Add-on formatting utility for Analog
 Summary(pl.UTF-8):	Dodatek formatujący dla Analoga
 Name:		rmagic
 Version:	2.21
-Release:	1
+Release:	2
 License:	Artistic
 Group:		Networking/Utilities
 Source0:	http://www.reportmagic.org/%{name}-%{version}.tar.gz
