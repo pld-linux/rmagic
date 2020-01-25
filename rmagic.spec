@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.perl
 Summary:	Add-on formatting utility for Analog
 Summary(pl.UTF-8):	Dodatek formatujący dla Analoga
 Name:		rmagic
